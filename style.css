@@ -1,0 +1,36 @@
+/* resetting default css */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
+:root {
+  -night: #0A0A0A;
+  -pale-dogwood: #FAC9B8;
+  -turquoise: #40E0D0;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 1rem;
+  border: 1px red solid;
+}
+
+.navbar #name-home-link {
+  align-self: center;
+}
+
+
+
